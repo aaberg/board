@@ -1,0 +1,25 @@
+$font-stack: Helvetica, sans-serif
+$border-color: #999
+$shadow-color: rgba(100,100,100,.5)
+$sticker-color-1: #ffffb7
+
+@import "../components/canvas"
+
+html, body, div#content
+  height: 100%
+  margin: 0
+  padding: 0
+
+body
+  font: $font-stack
+
+#main
+  height: 100%
+  box-sizing: border-box
+  padding: 5px
+
+.draggable
+  position: absolute
+  padding: 1rem
+  background: $sticker-color-1
+  box-shadow: 0 0 5px 1px $shadow-color
